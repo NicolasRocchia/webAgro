@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AGROCONNECT</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+    <header>
+        <nav class="navbar-custom">
+            <div class="container-fluid">
+                <div class="navbar-collapse-custom">
+                    <a class="navbar-brand-custom" asp-controller="Home" asp-action="Index">
+                        <span class="navbar-brand-icon">🌾</span>
+                        <span>AGROCONNECT</span>
+                    </a>
+                    <ul class="navbar-nav-custom">
+                        <li>
+                            <a class="nav-link-custom" asp-controller="Home" asp-action="Index">Inicio</a>
+                        </li>
+                        <li>
+                            <a class="nav-link-custom" asp-controller="RecipeView" asp-action="Upload">Subir Receta</a>
+                        </li>
+                        <li>
+                            <a class="nav-link-custom" asp-controller="RecipeView" asp-action="Index">Consultar</a>
+                        </li>
+                        <li>
+                            <a class="nav-link-custom" href="/swagger" target="_blank">API Docs</a>
+                        </li>
+                        <li>
+                            <a class="btn-login" asp-controller="Account" asp-action="Login">
+                                <span class="login-icon">🔐</span>
+                                Ingresar
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>🌾 AGROCONNECT</p>
+            <p>Sistema de Gestión de Recetas Fitosanitarias</p>
+            <p>© @DateTime.Now.Year - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
