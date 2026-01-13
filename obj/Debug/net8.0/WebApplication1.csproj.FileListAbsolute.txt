@@ -19,9 +19,7 @@ D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\WebApplication1.source
 D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css
-D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
 D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
 D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
@@ -33,4 +31,3 @@ D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\refint\WebApplication1
 D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
-D:\Programacion\AGRO\WEB\WebApplication1\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutLogin.cshtml.rz.scp.css
